@@ -1,0 +1,20 @@
+{
+    "name": "sukohi/laravel-absolute-url",
+    "description": "A Laravel package to generate absolute URL.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "test@example.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\LaravelAbsoluteUrl\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
