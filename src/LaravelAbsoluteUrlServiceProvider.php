@@ -27,9 +27,10 @@ class LaravelAbsoluteUrlServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app['laravel-absolute-url'] = $this->app->share(function($app)
-        {
+        $this->app->singleton('laravel-absolute-url', function(){
+
             return new LaravelAbsoluteUrl;
+
         });
     }
 
